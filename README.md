@@ -10,7 +10,7 @@
 - A classe Produto ficou em models.py.
 - Controller de produtos: blueprints/produtos/routes.py.
 - Controller de autenticação: blueprints/auth/routes.py.
-## Por que o url_for e os endpoints precisaram ser ajustados durante a refatoração? Cite um exemplo de mudança que você fez.
+## 3.Por que o url_for e os endpoints precisaram ser ajustados durante a refatoração? Cite um exemplo de mudança que você fez.
 - Os endpoints mudaram porque as rotas passaram a usar Blueprints.
 - Antes: url_for("index")
 - Depois: url_for("produtos.index")
